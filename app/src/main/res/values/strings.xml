@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">AllCampus Manager</string>
+    <string name="button">write</string>
+    <string name="inputString">type sumn bruv</string>
+    <string name="stfu">Amount</string>
+    <string name="read">read</string>
+    <string name="temp">yahhhhhh</string>
+
+    <string name="zoo_S">Zoo</string>
+    <string name="zooSkip_S">Zoo Skip</string>
+    <string name="kombucha_s">Kombucha</string>
+    <string name="undo_S">Undo</string>
+    <string name="customAmount_S">Custom Amount</string>
+    <string name="spend_S">Spend</string>
+    <string name="reset_S">Reset</string>
+    <string name="override_S">Override</string>
+    <string name="total_S">Total:</string>
+    <string name="freeSpending_S">Free:</string>
+    <string name="add_S">Add</string>
+    <string name="zoos_S">Zoo Visits:</string>
+
+    <string name="fullZoo">14</string>
+
+</resources>

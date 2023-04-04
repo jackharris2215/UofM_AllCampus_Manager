@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/total2"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="11dp"
+        android:text="@string/total_S"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/freeSpending2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/freeSpending"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/freeSpending_S"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/freeSpending2"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/freeSpending_S"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpUsage" />
+
+    <Button
+        android:id="@+id/spend"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="220dp"
+        android:text="@string/spend_S"
+        app:backgroundTint="@color/blueish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/undo"
+        android:layout_width="142dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/undo_S"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:backgroundTint="@color/darkgreenish"/>
+
+    <Button
+        android:id="@+id/zooSkip"
+        android:layout_width="142dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="236dp"
+        android:text="@string/zooSkip_S"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:backgroundTint="@color/darkgreenish"
+        />
+
+    <Button
+        android:id="@+id/kombucha"
+        android:layout_width="142dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/kombucha_s"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/greenish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/zoo"
+        android:layout_width="142dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="82dp"
+        android:text="@string/zoo_S"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/greenish"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enterAmount"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="70dp"
+        android:ems="10"
+        android:hint="@string/stfu"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintTextFieldSize"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/reset_S"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spend"
+        app:backgroundTint="@color/redish"/>
+
+    <Button
+        android:id="@+id/override"
+        android:layout_width="142dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/override_S"
+        app:backgroundTint="@color/redish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spend" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="11dp"
+        android:text="@string/total_S"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/freeSpending"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/zoos"
+        android:layout_width="164dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/zoos_S"
+        android:textSize="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/zooNum"
+        android:layout_width="98dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textSize="32dp"
+        app:layout_constraintStart_toEndOf="@+id/zoos"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpUsage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
